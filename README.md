@@ -6,7 +6,8 @@ Following are the model configaration:
 - Trained on ST and MJ with 94 characters containing lower, upper and sepcial characters. 
 - Maximum length of the label is 35
 - Change the paths in maerec_b_union14m.py for finetuning
-- The provided checkpoint is for ViT Base 
+- The provided checkpoint is for ViT Base
+- charset : [Charset_94](https://drive.google.com/file/d/12kWBd6Cf27VVpiCuhPv6pTLtkRH0buv5/view?usp=share_link)
 - Link : [Pretrained and Finetuned model checkpoint](https://drive.google.com/drive/u/1/folders/15vWAr0mNqARnAa2vAHNgCLi_kZrPnEgc)
 
 
