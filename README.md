@@ -1,36 +1,14 @@
-<div align=center>
+# MAERec 
 
-# Revisiting Scene Text Recognition: A Data Perspective
+This repository includes training files for the MAERec model on 94 characters. You can find both the pretrained and fine-tuned model weights below.
 
-</div>
-
-<div align=center>
-  <img src='https://github.com/open-mmlab/mmocr/assets/65173622/4544c4ff-0f30-46b2-ae04-7bd795694df4' width=600 >
-</div>
-
-<div align=center>
-  <p >Union14M is a large scene text recognition (STR) dataset collected from 17 publicly available datasets, which contains 4M of labeled data (Union14M-L) and 10M of unlabeled data (Union14M-U), intended to provide a more profound analysis for the STR community</p>
-
-<div align=center>
-
-[![arXiv preprint](http://img.shields.io/badge/arXiv-2037.08723-b31b1b)](https://arxiv.org/pdf/2307.08723) [![Gradio demo](https://img.shields.io/badge/%F0%9F%A4%97%20demo-Gradio-ff7c00)](https://huggingface.co/spaces/Mountchicken/MAERec-Gradio) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10Fd5x7ywL_ps4m2Am7DmvvcAflWIKCTW?usp=sharing)     
+Following are the model configaration:
+- Trained on ST and MJ with 94 characters containing lower, upper and sepcial characters. 
+- Maximum length of the label is 35
+- Change the paths in maerec_b_union14m.py for finetuning
+- Link : [Pretrained and Finetuned model checkpoint](https://drive.google.com/drive/u/1/folders/15vWAr0mNqARnAa2vAHNgCLi_kZrPnEgc)
 
 
-</div>
-
-
-</div>
-<p align="center">
-   <strong><a href="#1-introduction">Introduction </a></strong> •
-   <strong><a href="#34-download">Download </a></strong> •
-   <strong><a href="#5-maerec">MAERec</a></strong>
-   
-</p>
-
-## What's New
-- **2023/7/20**: Both MAERec and Union14M will be migrated to official MMOCR repo soon.
-- **2023/7/19**: We post a Zhihu blog for this work [ICCV2023 | 场景文字识别的新玩法：从数据角度重新审视场景文字](https://zhuanlan.zhihu.com/p/644548506)
-- **2023/7/15**: Our work is accepted by ICCV2023🥳
 
 
 ## 1. Introduction
